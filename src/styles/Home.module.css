@@ -2,4 +2,46 @@
   min-height: 100vh;
   background-image: url("../../public/assets/images/Bitmap.jpg");
   background-size: cover;
+  display: flex;
+  flex-direction: column;
+  gap: 251px;
+}
+
+.mainDescriptionContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  padding: 0 165px;
+}
+
+.mainTitle {
+  color: #d0d6f9;
+  font-size: 28px;
+}
+
+.mainTitle > span {
+  color: #fff;
+  font-size: 150px;
+}
+
+.mainParagraph {
+  width: 444px;
+  font-size: 18px;
+  color: #d0d6f9;
+}
+
+.exploreButton {
+  position: absolute;
+  right: 165px;
+  top: 50%;
+  width: 274px;
+  height: 274px;
+  border: none;
+  border-radius: 100%;
+  background-color: #fff;
+  color: #0b0d17;
+  font-size: 32px;
+  text-align: center;
+  text-transform: uppercase;
 }
